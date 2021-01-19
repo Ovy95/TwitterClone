@@ -45,24 +45,85 @@
         <h4>Join Twitter now</h4>
         <a href="signup.php" class="sign-up">Sign up</a>
         <a href="login.php" class="log-in">Log In</a>
-
       </div>  
+    </div>
+    
+      <footer class="main-page-footer" role="contentinfo">
+        <ul>
+          <li>
+            <a href="#">About</a>
+          </li>
 
-      </div>
+          <li>
+            <a href="#">Help Center</a>
+          </li> 
 
+          <li>
+            <a href="#">Terms of service</a>
+          </li>
 
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
 
+          <li>
+            <a href="#">Cookie Policy</a>
+          </li>
 
+          <li>
+            <a href="#">Ads info</a>
+          </li>
 
+          <li>
+            <a href="#">Blog</a>
+          </li>
 
+          <li>
+            <a href="#">Status</a>
+          </li>
 
+          <li>
+            <a href="#">Careers</a>
+          </li>
 
+          <li>
+            <a href="#">Brand Resources</a>
+          </li>
 
-      <footer>Footer</footer>
+          <li>
+            <a href="#">Advertisting</a>
+          </li>
 
-   
-  
-</section>
-  
-</body>
-</html>
+          <li>
+            <a href="#">Marketing</a>
+          </li>
+          
+          <li>
+            <a href="#">Advertisting</a>
+          </li>
+
+          <li>
+            <a href="#">Twitter for Business</a>
+          </li>
+
+          <li>
+            <a href="#">Developers</a>
+          </li>
+
+          <li>
+            <a href="#">Directory</a>
+          </li>
+
+          <li>
+            <a href="#">Settings</a>
+          </li>
+
+          <li>
+            <a href="#">&copy; <?php echo date('Y'); ?> Twitter.inc</a>
+          </li>
+
+        </ul>
+       </footer>
+      </section>
+    </body>
+  </html>

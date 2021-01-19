@@ -12,6 +12,10 @@ html {
   font-size: 62.5%;
 }
 
+/* a {
+  text-decoration: none;
+} */
+
 .main-page {
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -60,7 +64,7 @@ html {
   color:  rgb(28, 144, 245);
   margin-bottom: 2rem;
 }
-.middle-content h1 {
+.middle-content h1{
   font-size: 2.8rem;
   margin-bottom: 4rem;
   line-height: 4rem;
@@ -92,4 +96,31 @@ a.sign-up {
 a.log-in {
   background: white;
   color: rgb(28, 144, 245);
+}
+
+footer.main-page-footer {
+  grid-column: 1/-1;
+  background: #fff;
+  padding:1.5rem;
+  grid-row: 2/3;
+  border-top: .1rem solid #ddd;
+  font-size: 9rem;
+}
+.main-page-footer ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main-page-footer li {
+  padding: 1rem 1.5rem;
+  color: rgb(199, 198, 195);
+  font-size: 3rem;
+}
+
+.main-page-footer a {
+  color: rgb(131, 130, 129);
+  font-size: 3rem;
+}
+.main-page-footer a:hover {
+  text-decoration: underline;
 }
