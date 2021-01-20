@@ -5,7 +5,6 @@ $pageTitle="SignUp | Twitter"
 
 
 <?php include 'backend/shared/header.php'; ?>
-
   <section class="sign-container">
     <nav class="nav-header-sign__up">
     <ul>
@@ -32,7 +31,7 @@ $pageTitle="SignUp | Twitter"
     </ul>
     </nav>
     <div class="form-container">
-      <div class="form-container">
+      <div class="form-content">
         <h2 class="header__form-container">
             Create your account
         </h2>
@@ -68,15 +67,13 @@ $pageTitle="SignUp | Twitter"
             <input type="checkbox" class="form-checkbox" id="check" name="remember">
             <label for="remember">Remember me</label>
           </div>
-
-          <footer class="form-footer">
+        </form>
+      </div>
+      <footer class="form-footer">
           <p>Already have an account? <a href="login.php">Login now</a></p>
           </footer>
-
-       </form>
-      </div>
      </div>
-
+</section>
 
     
     
