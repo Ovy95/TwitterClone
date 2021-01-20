@@ -6,30 +6,7 @@ $pageTitle="SignUp | Twitter"
 
 <?php include 'backend/shared/header.php'; ?>
   <section class="sign-container">
-    <nav class="nav-header-sign__up">
-    <ul>
-        <li>
-          <a href="#">
-            <i class="fab fa-twitter"></i>
-            Home
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-
-            About
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-
-            Language:English
-          </a>
-        </li>
-    </ul>
-    </nav>
+  <?php include 'backend/shared/loginNav.php'; ?>
     <div class="form-container">
       <div class="form-content">
         <h2 class="header__form-container">
